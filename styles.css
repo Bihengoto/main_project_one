@@ -79,3 +79,8 @@ main {
 #details-right a {
   text-decoration: none;
 }
+.foot {
+  text-align: center;
+  background-color: #f20505;
+  opacity: 0.5;
+}
