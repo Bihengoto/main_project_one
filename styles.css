@@ -38,3 +38,44 @@ body {
   font-size: 40px;
   font-weight: bold;
 }
+main {
+  display: flex;
+}
+
+.pic1 {
+  flex: 1;
+}
+
+.pic1 img {
+  height: 600px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.bar2 {
+  flex: 3;
+  height: 600px;
+  background-color: #f20505;
+  float: right;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+#details {
+  display: flex;
+}
+
+#details-left {
+  flex: 2;
+  padding: 20px;
+}
+
+#details-right {
+  flex: 1;
+  color: #1ec672;
+  list-style: none;
+}
+#details-right a {
+  text-decoration: none;
+}
